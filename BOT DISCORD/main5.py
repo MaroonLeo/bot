@@ -257,6 +257,12 @@ def check_and_award_achievements(player_id):
 
                 conn.commit()
                 print(f"Jugador {player_id} obtuvo el logro: {achievement['name']} y recibió {extra_points} puntos extra.")
+    if not os.path.exists("amongus.db"):
+    print("🟠 Base de datos no encontrada, creando una nueva...")
+    init_db()
+    insert_achievements()
+else:
+    print("🟢 Base de datos encontrada")
 #######################################
 # COMANDO PARA AGREGAR PUNTOS MANUALMENTE
 #######################################
