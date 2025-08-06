@@ -1,0 +1,28 @@
+# Ignorar todo lo que esté fuera del proyecto
+../*
+
+# Archivos basura comunes
+*.lnk
+*.pdf
+*.docx
+*.xlsx
+*.jpg
+*.png
+*.exe
+*.url
+*.zip
+*.ini
+*.avif
+*.bpm
+*.html
+*.txt
+
+# Carpetas innecesarias
+/cache/
+/tablero_files/
+/RANKING AMONG US/
+/INFORME/
+/BPMN/
+/CREW/
+/kriss/
+/AMONG US/
